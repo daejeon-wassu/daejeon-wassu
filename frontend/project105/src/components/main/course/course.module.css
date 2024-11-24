@@ -1,0 +1,38 @@
+.container {
+  width: 750px;
+  /* background-color: aquamarine; */
+  padding: 0 22px;
+  /* margin-bottom: 40px; */
+}
+
+.header {
+  margin-bottom: 30px;
+  /* margin-left: 22px; */
+  /* margin-bottom: 20px; */
+}
+
+.title {
+  margin-bottom: 3px;
+}
+
+.text1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.text2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.gtext {
+  color: #418663;
+}
+
+.desc {
+  font-size: 16px;
+  color: #333333;
+  opacity: 70%;
+}

@@ -1,0 +1,67 @@
+/* components/LoginModal.module.css */
+
+/* Modal Overlay (배경) */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content (모달 내부) */
+.modalContent {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modalContent button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #418663;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modalContent button:hover {
+  background-color: #43745b;
+}
+
+.imgbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+}
+
+.img2 {
+  width: 70px;
+  height: 30px;
+}
+
+.h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 16px;
+  color: #333333;
+  opacity: 70%;
+  margin-bottom: 20px;
+}

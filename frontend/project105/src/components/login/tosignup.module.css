@@ -1,0 +1,11 @@
+.button_st {
+  width: 450px;
+  height: 40px;
+  border: 1px solid rgba(65, 134, 99, 0.6);
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(65, 134, 99, 1);
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.page {
+  width: 100%;
+  padding: 210px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  color: #418663;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.titledesc {
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.descbox {
+  margin-top: 30px;
+}
+
+.desc {
+  font-size: 16px;
+  color: #333333;
+  opacity: 70%;
+}

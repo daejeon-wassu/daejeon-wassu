@@ -1,0 +1,25 @@
+.container {
+  /* width: 500px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  font-size: 40px;
+  color: #333333;
+}
+
+.description {
+  font-size: 16px;
+  color: #333333;
+  opacity: 50%;
+}

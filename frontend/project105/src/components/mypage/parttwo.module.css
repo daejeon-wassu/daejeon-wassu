@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.stampbox {
+  width: 100%;
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; */
+  /* gap: 10px; */
+}
+
+.stamptitle {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.stampcardbox {
+  /* width: 200px; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.stampcard {
+  width: 120px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stampimg {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.cardtitle {
+  width: 90%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333333;
+  opacity: 60%;
+  text-align: center;
+}
+
+.challengecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chaltitle {
+  width: 100%;
+  font-size: 24px;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+
+.challengebox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.chalimg {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.chalcard {
+  display: flex;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+.chalcontentbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.coursename {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.coursedesc {
+  font-size: 15px;
+  color: #333333;
+  opacity: 60%;
+}
+
+.done {
+  font-size: 14px;
+  font-weight: bold;
+}
+.done1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #418663;
+}
+
+.g {
+  color: #418663;
+}
+
+.nono {
+  width: 100%;
+  color: #333333;
+  opacity: 60%;
+  text-align: center;
+  padding: 40px 0px;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* background-color: #f8f8f8; */
+  /* height: 2500px; */
+}
+
+.main_container {
+  width: 750px;
+  height: auto;
+  /* margin-top: 20px; */
+  background-color: white;
+  /* padding: 20px; */
+}

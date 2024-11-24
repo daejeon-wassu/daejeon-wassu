@@ -1,0 +1,5 @@
+POST /article/_search?typed_keys=true
+{"query":{"bool":{"filter":[{"nested":{"path":"tags","query":{"terms":{"tags.tag":["빵"]}}}}],"must":[{"multi_match":{"fields":["title","content"],"query":"빵","type":"best_fields"}}]}},"size":20}
+
+
+[Hit: {"_index":"article","_id":"af1b44b1-3f7f-49cc-a493-f55592020b74","_score":0.4301266,"_source":{"_class":"com.wassu.wassu.entity.ArticleEntity","id":"af1b44b1-3f7f-49cc-a493-f55592020b74","user":3,"title":"빵드세유 빵","content":"빵의도시 대전","tags":[{"tag":"빵집"},{"tag":"베이커리"}],"images":[{"url":"https://wassu-k11b105.s3.ap-northeast-2.amazonaws.com/article/e7ca0cbb-0ef7-4855-8e66-8ebd40c75e84_clova.png"}],"viewCount":0,"liked":0,"createdAt":"2024-11-07T23:19:22","updatedAt":"2024-11-07T23:19:22"}}]

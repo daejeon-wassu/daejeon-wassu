@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label_st {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.input_box {
+  width: 450px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 8px 0;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.input_box:focus {
+  border-bottom: 1px solid #418663;
+}
+
+.button_st {
+  width: 450px;
+  height: 40px;
+  background-color: rgba(65, 134, 99, 0.8);
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+/* 모든 요소의 기본 마진과 패딩을 없애는 글로벌 스타일 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* box-sizing을 border-box로 설정하여 패딩과 보더를 포함한 크기 계산 */
+}
+
+/* 추가적으로 기본적인 스타일을 설정할 수도 있습니다 */
+body {
+  font-family: Arial, sans-serif;
+}

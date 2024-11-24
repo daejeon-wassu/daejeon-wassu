@@ -1,0 +1,151 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text1 {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text2 {
+  font-size: 16px;
+  color: #333333;
+  opacity: 70%;
+}
+.text3 {
+  font-size: 16px;
+  color: #333333;
+  opacity: 70%;
+  margin-bottom: 30px;
+}
+
+.buttoncontainer {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+}
+
+.buttontext {
+  font-size: 18px;
+  color: #333333;
+  /* opacity: 50%; */
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.buttontext:hover {
+  color: #418663; /* Hover 시 색상 */
+  transform: translateY(-2px); /* 위로 5px 이동 */
+}
+
+.active {
+  color: #418663;
+}
+
+.searchbutton {
+  background-color: #418663;
+  color: #ffffff;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.imgbox {
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  right: 60px;
+  bottom: -40px;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img111 {
+  position: absolute;
+  right: 60px;
+  bottom: -40px;
+  width: 200px;
+  height: 200px;
+
+  background: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.img2 {
+  position: absolute;
+  right: 160px;
+  top: -40px;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img22 {
+  position: absolute;
+  right: 160px;
+  top: -40px;
+  width: 200px;
+  height: 200px;
+  /* background-color: #ffffff; */
+  background: none;
+  border-radius: 5px;
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img11 {
+  width: 190px;
+  height: 190px;
+  border-radius: 5px;
+}
+
+.img11111 {
+  position: absolute;
+  right: 10px;
+  bottom: -110px;
+  width: 400px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img111111 {
+  width: 390px;
+  height: 240px;
+  border-radius: 5px;
+}

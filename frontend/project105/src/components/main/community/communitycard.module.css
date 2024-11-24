@@ -1,0 +1,99 @@
+.card_container {
+  width: 345px;
+  height: 273px;
+  background-color: #ffffff;
+  box-shadow: 1px;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.2); /* 확산 5px */
+  position: relative;
+  cursor: pointer;
+}
+
+.piccontainer {
+  width: 100%;
+  height: 130px;
+  /* background-color: blue; */
+  /* padding: 7px; */
+}
+
+.profilepic {
+  /* background-color: bisque; */
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  position: absolute;
+  bottom: 124px;
+  left: 35px;
+}
+
+.username {
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+  opacity: 50%;
+  margin-top: 12px;
+  margin-bottom: 7px;
+}
+
+.placename {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.placedesc {
+  font-size: 14px;
+  color: #333333;
+  opacity: 50%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
+
+.defaultimage {
+  width: 100%;
+  height: 116px;
+  border-radius: 5px;
+}
+
+.imagecontainer2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image2 {
+  width: 49%;
+  height: 116px;
+  border-radius: 5px;
+}
+
+.image34container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image3 {
+  width: 60%;
+  height: 116px;
+  border-radius: 5px;
+}
+
+.image4container {
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image4 {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+}

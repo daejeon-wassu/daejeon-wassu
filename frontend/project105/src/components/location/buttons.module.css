@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 3px;
+}
+
+.text {
+  font-size: 14px;
+}

@@ -1,0 +1,318 @@
+.userbox {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 22px;
+}
+
+.profileimagae {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.date {
+  font-size: 14px;
+  color: #333333;
+  opacity: 50%;
+  margin-bottom: 8px;
+}
+
+.likenumber {
+  display: flex;
+  align-items: center;
+}
+
+.heartimg {
+  margin-right: 4px;
+}
+
+.heartnumber {
+  font-size: 12px;
+  color: #418663;
+  font-weight: bold;
+}
+
+.image {
+  width: 750px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.ectbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 0 22px;
+}
+
+.likenumber {
+  display: flex;
+}
+
+.descbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desctext {
+  width: 650px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc {
+  width: 650px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #333333;
+  opacity: 80%;
+  line-height: 25px;
+}
+
+.button {
+  margin-bottom: 100px;
+}
+
+/* 케러셀 코드 작성하는 곳 */
+/* 케러셀 코드 작성하는 곳 */
+/* 케러셀 코드 작성하는 곳 */
+/* 케러셀 코드 작성하는 곳 */
+/* 케러셀 코드 작성하는 곳 */
+/* 케러셀 코드 작성하는 곳 */
+
+/* 캐러셀 컨테이너 */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden; /* 컨테이너 밖으로 나간 부분 숨김 */
+}
+
+/* 슬라이드 전체 */
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* 각 이미지 슬라이드 */
+.carousel-slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* 이미지 */
+.carousel-image {
+  width: 100%;
+  display: block;
+}
+
+/* 좌측, 우측 버튼 */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* 버튼 호버 시 색상 변경 */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.buttonbox {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1.5px solid #418663;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.button1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.imgbox {
+  display: flex;
+  align-items: center;
+}
+
+.img1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.img2 {
+  width: 25px;
+  height: 25px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.modalButton {
+  background-color: #418663;
+  color: white;
+  font-size: 14px;
+  /* font-weight: bold; */
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalButton:hover {
+  background-color: #43745b;
+}
+
+.modalButton1 {
+  background-color: #ffffff;
+  color: #418663;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid #418663;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalButton1:hover {
+  background-color: #43745b;
+  color: #ffffff;
+  font-weight: 400;
+  border: 2px solid #43745b;
+}
+
+.contenttitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contentdesc {
+  font-size: 16px;
+  color: #333333;
+  opacity: 70%;
+  margin-bottom: 30px;
+}
+
+.imgbox2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.img3 {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+}
+
+.img4 {
+  width: 70px;
+  height: 30px;
+}
+
+.prom {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading_container {
+  width: 50px;
+  height: 50px;
+}
+
+.loading_container .loading_boxes {
+  width: 50px;
+  height: 50px;
+  fill: none;
+  stroke-width: 50px;
+  stroke: #43cb85;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50%;
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  to {
+    stroke-dashoffset: 250%;
+  }
+}
+
+.place {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contentbox {
+  margin-left: 22px;
+}

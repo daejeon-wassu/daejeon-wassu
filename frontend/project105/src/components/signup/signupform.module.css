@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label_st {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input_box {
+  width: 450px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 8px 0;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.email_input {
+  width: 80%;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 8px 0;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.email_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_box:focus {
+  border-bottom: 2px solid #418663;
+}
+
+.email_input:focus {
+  border-bottom: 2px solid #418663;
+}
+
+.email_error {
+  color: red;
+  font-size: 12px;
+}
+
+.auth_button {
+  width: 70px;
+  height: 24px;
+  border: none;
+  background-color: #c8decb;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.radio_container {
+  margin-bottom: 15px;
+}
+
+.signup_button {
+  width: 450px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(65, 134, 99, 0.8);
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.marginright {
+  margin-right: 15px;
+}

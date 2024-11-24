@@ -1,0 +1,18 @@
+.header_content_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.green_text {
+  font-size: 24px;
+  color: #418663;
+  font-weight: bold;
+}
