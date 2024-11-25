@@ -223,7 +223,7 @@
         <th>랜딩 페이지(서비스 처음 화면)</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' /></td>
+        <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' style="width:300px; height:auto;" /></td>
     </tr>
 </table>
 </div>
@@ -237,7 +237,7 @@
         <th>메인 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/95b394c8-193b-4496-9e11-50c7c629bb8a'/></td>
+        <td><img src='https://github.com/user-attachments/assets/95b394c8-193b-4496-9e11-50c7c629bb8a' style="width:300px; height:auto;"/></td>
     </tr>
 </table>
 </div>
@@ -249,7 +249,7 @@
         <th>관광지 검색</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/698a3d1c-4939-4834-b6a4-754b20329933'/></td>
+        <td><img src='https://github.com/user-attachments/assets/698a3d1c-4939-4834-b6a4-754b20329933' style="width:300px; height:auto;"/></td>
     </tr>
 </table>
 </div>
