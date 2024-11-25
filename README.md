@@ -1,5 +1,5 @@
 <div align="center">
-      <img src='readmeImage/title.png' width="70%">
+      <img src='https://github.com/user-attachments/assets/d663a6fe-27b2-498c-a535-20a739b3d9a7' width="70%">
 
  <h1>대전왔슈</h1>
 
@@ -223,7 +223,7 @@
         <th>랜딩 페이지(서비스 처음 화면)</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' style="width:750px; height:auto;" /></td>
+        <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' style="width:700px; height:auto;" /></td>
     </tr>
 </table>
 </div>
@@ -237,7 +237,7 @@
         <th>메인 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/95b394c8-193b-4496-9e11-50c7c629bb8a' style="width:750px; height:auto;"/></td>
+        <td><img src='https://github.com/user-attachments/assets/95b394c8-193b-4496-9e11-50c7c629bb8a' style="width:700px; height:auto;"/></td>
     </tr>
 </table>
 </div>
@@ -249,7 +249,7 @@
         <th>관광지 검색</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/698a3d1c-4939-4834-b6a4-754b20329933' style="width:750px; height:auto;"/></td>
+        <td><img src='https://github.com/user-attachments/assets/698a3d1c-4939-4834-b6a4-754b20329933' style="width:700px; height:auto;"/></td>
     </tr>
 </table>
 </div>
@@ -262,7 +262,7 @@
         <th>커뮤니티 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/049b90e3-86eb-4574-b71d-48f932b09927' style="width:750px; height:auto;"/></td>
+        <td><img src='https://github.com/user-attachments/assets/049b90e3-86eb-4574-b71d-48f932b09927' style="width:700px; height:auto;"/></td>
     </tr>
 </table>
 </div>
@@ -274,7 +274,7 @@
         <th>게시글 작성 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/d432ac93-e377-471b-9971-a5453a9f7154' style="width:750px; height:auto;"/></td>
+        <td><img src='https://github.com/user-attachments/assets/d432ac93-e377-471b-9971-a5453a9f7154' style="width:700px; height:auto;"/></td>
     </tr>
 </table>
 </div>
@@ -288,7 +288,7 @@
         <th>코스 상세 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/a553abc8-034a-4c93-a202-2d11859b6fca' style="width:750px; height:auto;"/></td>
+        <td><img src='https://github.com/user-attachments/assets/a553abc8-034a-4c93-a202-2d11859b6fca' style="width:700px; height:auto;"/></td>
     </tr>
 </table>
 </div>
@@ -300,7 +300,7 @@
         <th>관광지 상세 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/3fb22b20-18fa-4437-88c8-8e7b95227427' style="width:750px; height:auto;"/></td>
+        <td><img src='https://github.com/user-attachments/assets/3fb22b20-18fa-4437-88c8-8e7b95227427' style="width:700px; height:auto;"/></td>
     </tr>
 </table>
 </div>
