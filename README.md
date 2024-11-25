@@ -204,7 +204,7 @@
 ## ERD
 
 <div  width="70%">
-      ![erd](https://github.com/user-attachments/assets/c4cf08c5-7295-4d39-9b3e-dc8a67bd0797)
+ <img src="https://github.com/user-attachments/assets/c4cf08c5-7295-4d39-9b3e-dc8a67bd0797"/>
 </div>
 
 ## 시스템 아키텍쳐
