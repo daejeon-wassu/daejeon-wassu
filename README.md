@@ -223,7 +223,7 @@
         <th>랜딩 페이지(서비스 처음 화면)</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' width='70%'/></td>
+        <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' /></td>
     </tr>
 </table>
 </div>
@@ -237,7 +237,7 @@
         <th>메인 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/95b394c8-193b-4496-9e11-50c7c629bb8a' width='70%'/></td>
+        <td><img src='https://github.com/user-attachments/assets/95b394c8-193b-4496-9e11-50c7c629bb8a'/></td>
     </tr>
 </table>
 </div>
@@ -249,7 +249,7 @@
         <th>관광지 검색</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/698a3d1c-4939-4834-b6a4-754b20329933' width='70%'/></td>
+        <td><img src='https://github.com/user-attachments/assets/698a3d1c-4939-4834-b6a4-754b20329933'/></td>
     </tr>
 </table>
 </div>
@@ -262,7 +262,7 @@
         <th>커뮤니티 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/049b90e3-86eb-4574-b71d-48f932b09927' width='70%'/></td>
+        <td><img src='https://github.com/user-attachments/assets/049b90e3-86eb-4574-b71d-48f932b09927'/></td>
     </tr>
 </table>
 </div>
@@ -274,7 +274,7 @@
         <th>게시글 작성 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/d432ac93-e377-471b-9971-a5453a9f7154' width='70%'/></td>
+        <td><img src='https://github.com/user-attachments/assets/d432ac93-e377-471b-9971-a5453a9f7154'/></td>
     </tr>
 </table>
 </div>
@@ -288,7 +288,7 @@
         <th>코스 상세 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/a553abc8-034a-4c93-a202-2d11859b6fca' width='70%'/></td>
+        <td><img src='https://github.com/user-attachments/assets/a553abc8-034a-4c93-a202-2d11859b6fca'/></td>
     </tr>
 </table>
 </div>
@@ -300,7 +300,7 @@
         <th>관광지 상세 페이지</th>
     </tr>
     <tr>
-        <td><img src='https://github.com/user-attachments/assets/3fb22b20-18fa-4437-88c8-8e7b95227427' width='70%' /></td>
+        <td><img src='https://github.com/user-attachments/assets/3fb22b20-18fa-4437-88c8-8e7b95227427' /></td>
     </tr>
 </table>
 </div>
