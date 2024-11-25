@@ -18,14 +18,10 @@
 - [ERD](#erd)
 - [시스템 아키텍쳐](#시스템-아키텍쳐)
 - [서비스 실사용 화면](#서비스-실사용-화면)
-  - [1. 메인 페이지](#1-메인-페이지)
-  - [2. 일정 계획 페이지](#2-일정-계획-페이지)
-    - [2-1. 여행 계획 홈 메뉴](#2-1-여행-계획-홈-메뉴)
-    - [2-2. 여행 계획 지도 메뉴](#2-2-여행-계획-지도-메뉴)
-    - [2-3. 여행 계획 일정 메뉴](#2-3-여행-계획-일정-메뉴)
-  - [3. 지난 계획 페이지](#3-지난-계획-페이지)
-  - [4. 여행지 페이지](#4-여행지-페이지)
-    - [5. 공통화면](#5-공통화면)
+  - [1. 랜딩 페이지](#1-랜딩-페이지)
+  - [2. 메인 페이지](#2-메인-페이지)
+  - [3. 커뮤니티 페이지](#3-커뮤니티-페이지)
+  - [4. 코스 페이지](#4-코스-페이지)
 
 ## 서비스 개요
 
@@ -69,10 +65,10 @@
 <img src="https://img.shields.io/badge/JavaScript-FFE249?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
 <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white">
-<img src="https://img.shields.io/badge/Yjs-30BCED?style=for-the-badge&logo=Yjs&logoColor=white">
+
 <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white">
 <img src="https://img.shields.io/badge/zustand-1F4ECF?style=for-the-badge&logo=zustand&logoColor=white">
-<img src="https://img.shields.io/badge/lottie-04d1c1?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
 
 <br>
@@ -81,7 +77,7 @@
 
 **Framework |** Next.js(v14.2.2), Zustand(v4.5.2)
 
-**Library |** eslint(v8.57.0), Yjs(v13.6.14), prettier(v3.2.5), Lottie(v2.0.0), Axios(v1.6.7), peer.js(v1.5.2)
+**Library |** eslint(v8.57.0), prettier(v3.2.5), Axios(v1.6.7),
 
 </div>
 
@@ -195,9 +191,9 @@
 
 <div align="start">
 
-- <a href='https://tested-roquefort-da8.notion.site/e0ed30ab70594efe87bcc2bd7dd66f1b?pvs=4'>기능 명세서</a>
+- <a href='https://docs.google.com/spreadsheets/d/1XIL1Ac_6k1oj2pT1W4nY86jNZNt8-MbNBIO0aK5X6N4/edit?gid=0#gid=0'>기능 명세서</a>
 
-- <a href='https://tested-roquefort-da8.notion.site/API-f79c44d8a0fd4db2873364bddbed4ba0?pvs=4'>API 명세서</a>
+- <a href='https://www.notion.so/API-127b51c6a4d280b7b66cfad99833144f'>API 명세서</a>
 
 </div>
 
