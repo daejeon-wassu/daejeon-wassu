@@ -43,7 +43,7 @@
 ## 팀원 소개
 
 <div align="center">
-      <img src='readmeImage/position.PNG'>
+      <img src='https://github.com/user-attachments/assets/a27e70dc-58ce-4647-a913-6a960baf2e07'>
       <table>
       <tr>
         <td align="center" width="5%">GitHub</td>
