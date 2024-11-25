@@ -217,6 +217,7 @@
 
 ### 1. 랜딩 페이지
 
+<div align="middle">
 <table>
     <tr>
         <th>랜딩 페이지(서비스 처음 화면)</th>
@@ -225,6 +226,7 @@
         <td><img src='https://github.com/user-attachments/assets/8faabbe8-6d05-4c92-a7fa-9803f8e2a9d8' /></td>
     </tr>
 </table>
+</div>
 <br>
 
 ### 2. 메인 페이지
