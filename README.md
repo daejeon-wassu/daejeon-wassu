@@ -17,6 +17,7 @@
 - [명세서](#명세서)
 - [ERD](#erd)
 - [시스템 아키텍쳐](#시스템-아키텍쳐)
+- [디렉토리 구조](#디렉토리-구조)
 - [서비스 실사용 화면](#서비스-실사용-화면)
   - [1. 랜딩 페이지](#1-랜딩-페이지)
   - [2. 메인 페이지](#2-메인-페이지)
@@ -206,6 +207,667 @@
 <div  width="70%">
       <img src='https://github.com/user-attachments/assets/cbccddfc-9f84-4fa3-9ce1-0edbc0c57472'>
 </div>
+
+## 디렉토리 구조
+
+<details>
+<summary>next.js</summary>
+<div markdown="1">
+
+```text
+📦frontend
+ ┣ 📂public
+ ┃ ┣ 📂images
+ ┃ ┃ ┣ 📜basic.png
+ ┃ ┃ ┣ 📜bread.png
+ ┃ ┃ ┣ 📜building.png
+ ┃ ┃ ┣ 📜calin.png
+ ┃ ┃ ┣ 📜clock.png
+ ┃ ┃ ┣ 📜coursebackground.png
+ ┃ ┃ ┣ 📜default.png
+ ┃ ┃ ┣ 📜delete.png
+ ┃ ┃ ┣ 📜dojang.png
+ ┃ ┃ ┣ 📜heart.png
+ ┃ ┃ ┣ 📜jjim.png
+ ┃ ┃ ┣ 📜jjimed.png
+ ┃ ┃ ┣ 📜loca.png
+ ┃ ┃ ┣ 📜location.png
+ ┃ ┃ ┣ 📜logo.png
+ ┃ ┃ ┣ 📜logotext.png
+ ┃ ┃ ┣ 📜mainimage.png
+ ┃ ┃ ┣ 📜marker.png
+ ┃ ┃ ┣ 📜pencil.png
+ ┃ ┃ ┣ 📜promimage.png
+ ┃ ┃ ┣ 📜searchicon.png
+ ┃ ┃ ┣ 📜stamp.png
+ ┃ ┃ ┣ 📜star.png
+ ┃ ┃ ┣ 📜tele.png
+ ┃ ┃ ┣ 📜update.png
+ ┃ ┃ ┣ 📜wassu.png
+ ┃ ┃ ┣ 📜가족.png
+ ┃ ┃ ┣ 📜검색.PNG
+ ┃ ┃ ┣ 📜검색1.PNG
+ ┃ ┃ ┣ 📜과학.png
+ ┃ ┃ ┣ 📜관광지추천.PNG
+ ┃ ┃ ┣ 📜교육.png
+ ┃ ┃ ┣ 📜도장랜딩.PNG
+ ┃ ┃ ┣ 📜랜드마크.png
+ ┃ ┃ ┣ 📜문화.png
+ ┃ ┃ ┣ 📜빵집.png
+ ┃ ┃ ┣ 📜상세1.PNG
+ ┃ ┃ ┣ 📜상세2.PNG
+ ┃ ┃ ┣ 📜스포츠.png
+ ┃ ┃ ┣ 📜역사.png
+ ┃ ┃ ┣ 📜음식.png
+ ┃ ┃ ┣ 📜자연.png
+ ┃ ┃ ┣ 📜챗봇.PNG
+ ┃ ┃ ┣ 📜코스.PNG
+ ┃ ┃ ┣ 📜코스추천2.PNG
+ ┃ ┃ ┗ 📜코스추천3.PNG
+ ┃ ┣ 📜file.svg
+ ┃ ┣ 📜globe.svg
+ ┃ ┣ 📜next.svg
+ ┃ ┣ 📜vercel.svg
+ ┃ ┗ 📜window.svg
+ ┣ 📂src
+ ┃ ┣ 📂app
+ ┃ ┃ ┣ 📂(with-haeder)
+ ┃ ┃ ┃ ┣ 📂community
+ ┃ ┃ ┃ ┃ ┣ 📂create
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┃ ┣ 📂fix
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┃ ┣ 📂[id]
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂location
+ ┃ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂main
+ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂mypage
+ ┃ ┃ ┃ ┃ ┣ 📜layout.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜layout.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📜layout.module.css
+ ┃ ┃ ┃ ┣ 📜layout.tsx
+ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📂fonts
+ ┃ ┃ ┃ ┣ 📜GeistMonoVF.woff
+ ┃ ┃ ┃ ┗ 📜GeistVF.woff
+ ┃ ┃ ┣ 📂login
+ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📂signup
+ ┃ ┃ ┃ ┣ 📜page.module.css
+ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📜favicon.ico
+ ┃ ┃ ┣ 📜globals.css
+ ┃ ┃ ┣ 📜layout.tsx
+ ┃ ┃ ┣ 📜middleware.ts
+ ┃ ┃ ┣ 📜not-found.module.css
+ ┃ ┃ ┗ 📜not-found.tsx
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📂community
+ ┃ ┃ ┃ ┣ 📜updatedelete.module.css
+ ┃ ┃ ┃ ┗ 📜updatedelete.tsx
+ ┃ ┃ ┣ 📂index
+ ┃ ┃ ┃ ┣ 📜buttons.module.css
+ ┃ ┃ ┃ ┣ 📜buttons.tsx
+ ┃ ┃ ┃ ┣ 📜sectionfour.module.css
+ ┃ ┃ ┃ ┣ 📜sectionfour.tsx
+ ┃ ┃ ┃ ┣ 📜sectionone.module.css
+ ┃ ┃ ┃ ┣ 📜sectionone.tsx
+ ┃ ┃ ┃ ┣ 📜sectionthree.module.css
+ ┃ ┃ ┃ ┣ 📜sectionthree.tsx
+ ┃ ┃ ┃ ┣ 📜sectiontowpart.module.css
+ ┃ ┃ ┃ ┣ 📜sectiontwo.module.css
+ ┃ ┃ ┃ ┣ 📜sectiontwo.tsx
+ ┃ ┃ ┃ ┗ 📜sectiontwopart.tsx
+ ┃ ┃ ┣ 📂kakao
+ ┃ ┃ ┃ ┗ 📜kakaomap.tsx
+ ┃ ┃ ┣ 📂location
+ ┃ ┃ ┃ ┣ 📜buttons.module.css
+ ┃ ┃ ┃ ┣ 📜buttons.tsx
+ ┃ ┃ ┃ ┣ 📜carousel.module.css
+ ┃ ┃ ┃ ┣ 📜carousel.tsx
+ ┃ ┃ ┃ ┣ 📜comment.module.css
+ ┃ ┃ ┃ ┣ 📜comment.tsx
+ ┃ ┃ ┃ ┣ 📜review.module.css
+ ┃ ┃ ┃ ┗ 📜review.tsx
+ ┃ ┃ ┣ 📂login
+ ┃ ┃ ┃ ┣ 📜loginform.module.css
+ ┃ ┃ ┃ ┣ 📜loginform.tsx
+ ┃ ┃ ┃ ┣ 📜tosignup.module.css
+ ┃ ┃ ┃ ┗ 📜tosignup.tsx
+ ┃ ┃ ┣ 📂main
+ ┃ ┃ ┃ ┣ 📂community
+ ┃ ┃ ┃ ┃ ┣ 📜community.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜community.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜communitycard.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜communitycard.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜communityheader.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜communityheader.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜tocommunity.module.css
+ ┃ ┃ ┃ ┃ ┗ 📜tocommunity.tsx
+ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┣ 📜carousel.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜carousel.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜course.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜course.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜coursecarousel.module.css
+ ┃ ┃ ┃ ┃ ┗ 📜coursecarousel.tsx
+ ┃ ┃ ┃ ┣ 📂reco
+ ┃ ┃ ┃ ┃ ┣ 📜reco.module.css
+ ┃ ┃ ┃ ┃ ┣ 📜reco.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜recocard.module.css
+ ┃ ┃ ┃ ┃ ┗ 📜recocard.tsx
+ ┃ ┃ ┃ ┣ 📜searchresultcard.module.css
+ ┃ ┃ ┃ ┣ 📜searchresultcard.tsx
+ ┃ ┃ ┃ ┣ 📜tologinmodal.module.css
+ ┃ ┃ ┃ ┗ 📜tologinmodal.tsx
+ ┃ ┃ ┣ 📂mypage
+ ┃ ┃ ┃ ┣ 📜partone.module.css
+ ┃ ┃ ┃ ┣ 📜partone.tsx
+ ┃ ┃ ┃ ┣ 📜partthree.module.css
+ ┃ ┃ ┃ ┣ 📜partthree.tsx
+ ┃ ┃ ┃ ┣ 📜parttwo.module.css
+ ┃ ┃ ┃ ┗ 📜parttwo.tsx
+ ┃ ┃ ┣ 📂signup
+ ┃ ┃ ┃ ┣ 📜signupform.module.css
+ ┃ ┃ ┃ ┗ 📜signupform.tsx
+ ┃ ┃ ┣ 📜header.module.css
+ ┃ ┃ ┣ 📜header.tsx
+ ┃ ┃ ┣ 📜useapp.module.css
+ ┃ ┃ ┗ 📜useapp.tsx
+ ┃ ┣ 📂store
+ ┃ ┃ ┗ 📜dropdownStore.ts
+ ┃ ┗ 📜types.ts
+ ┣ 📜.eslintrc.json
+ ┣ 📜.gitignore
+ ┣ 📜Dockerfile
+ ┣ 📜Jenkinsfile
+ ┣ 📜next.config.ts
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜README.md
+ ┗ 📜tsconfig.json
+```
+
+</div>
+</details>
+
+<details>
+<summary>fast-api</summary>
+<div markdown="1">
+
+```text
+📦backend
+ ┣ 📂.idea
+ ┃ ┣ 📜.gitignore
+ ┃ ┣ 📜backend.iml
+ ┃ ┣ 📜misc.xml
+ ┃ ┣ 📜modules.xml
+ ┃ ┗ 📜vcs.xml
+ ┣ 📂data
+ ┃ ┣ 📂code
+ ┃ ┃ ┣ 📜bread_course_db_insert.py
+ ┃ ┃ ┣ 📜chat_bot.py
+ ┃ ┃ ┣ 📜crawl.py
+ ┃ ┃ ┣ 📜da_clean.py
+ ┃ ┃ ┣ 📜db_conect.py
+ ┃ ┃ ┣ 📜db_table_delete.py
+ ┃ ┃ ┣ 📜embedding.py
+ ┃ ┃ ┣ 📜final.py
+ ┃ ┃ ┣ 📜geo.py
+ ┃ ┃ ┣ 📜gpt.py
+ ┃ ┃ ┣ 📜insert_db.py
+ ┃ ┃ ┣ 📜random_coures_insert.py
+ ┃ ┃ ┣ 📜recommend_spot_test.py
+ ┃ ┃ ┣ 📜req.py
+ ┃ ┃ ┣ 📜split.py
+ ┃ ┃ ┣ 📜spot_entity_add_embedding.py
+ ┃ ┃ ┣ 📜text_to_vactor.py
+ ┃ ┃ ┣ 📜랜덤맛집.py
+ ┃ ┃ ┣ 📜맛집.py
+ ┃ ┃ ┣ 📜맛집_리뷰수.py
+ ┃ ┃ ┣ 📜빵집.py
+ ┃ ┃ ┣ 📜빵집_리뷰수.py
+ ┃ ┃ ┣ 📜빵집_전화번호.py
+ ┃ ┃ ┣ 📜빵켓몬_db.py
+ ┃ ┃ ┣ 📜전처리.py
+ ┃ ┃ ┣ 📜전화번화_시간.py
+ ┃ ┃ ┣ 📜진짜힘든강화학습.py
+ ┃ ┃ ┗ 📜평점_크롤링.py
+ ┃ ┣ 📂csv_files
+ ┃ ┃ ┣ 📂my_datas
+ ┃ ┃ ┃ ┣ 📜.DS_Store
+ ┃ ┃ ┃ ┣ 📜대전_과학명소.csv
+ ┃ ┃ ┃ ┣ 📜대전_맛집.csv
+ ┃ ┃ ┃ ┣ 📜대전_문화명소.csv
+ ┃ ┃ ┃ ┣ 📜대전_빵집.csv
+ ┃ ┃ ┃ ┣ 📜대전_생태환경명소.csv
+ ┃ ┃ ┃ ┣ 📜대전_역사명소.csv
+ ┃ ┃ ┃ ┗ 📜대전시_대표명소.csv
+ ┃ ┃ ┣ 📜.DS_Store
+ ┃ ┃ ┣ 📜elastic.csv
+ ┃ ┃ ┗ 📜대전_빵집_업데이트.csv
+ ┃ ┗ 📜.DS_Store
+ ┣ 📂fast_api
+ ┃ ┣ 📂DB_con
+ ┃ ┃ ┗ 📜__init__.py
+ ┃ ┣ 📂dependencies
+ ┃ ┃ ┗ 📜dependencies.py
+ ┃ ┣ 📂routers
+ ┃ ┃ ┣ 📜bakeryrouter.py
+ ┃ ┃ ┣ 📜chat_router.py
+ ┃ ┃ ┣ 📜count_top_router.py
+ ┃ ┃ ┣ 📜course_router.py
+ ┃ ┃ ┣ 📜db_conect.py
+ ┃ ┃ ┣ 📜marble_router.py
+ ┃ ┃ ┣ 📜recommendation.py
+ ┃ ┃ ┗ 📜recommend_spot_router.py
+ ┃ ┣ 📜.gitignore
+ ┃ ┣ 📜jwt_handler.py
+ ┃ ┣ 📜jwt_token.py
+ ┃ ┗ 📜main.py
+ ┣ 📂model
+ ┃ ┣ 📜clustered_data.csv
+ ┃ ┗ 📜kmeans_model.joblib
+ ┣ 📂train
+ ┃ ┗ 📜train_bakery.py
+ ┣ 📜.DS_Store
+ ┣ 📜.gitignore
+ ┣ 📜requirements.txt
+ ┣ 📜temp.md
+ ┗ 📜__init__.py
+```
+
+</div>
+</details>
+
+<details>
+<summary>react-native</summary>
+<div markdown="1">
+
+```text
+📦src
+ ┣ 📂api
+ ┃ ┣ 📜community.ts
+ ┃ ┣ 📜core.ts
+ ┃ ┣ 📜itinerary.ts
+ ┃ ┣ 📜mono.ts
+ ┃ ┣ 📜mypage.ts
+ ┃ ┣ 📜recommended.ts
+ ┃ ┣ 📜tourist.ts
+ ┃ ┗ 📜user.ts
+ ┣ 📂assets
+ ┃ ┣ 📂ar
+ ┃ ┃ ┣ 📂3d-models
+ ┃ ┃ ┃ ┣ 📜bread_ball.glb
+ ┃ ┃ ┃ ┣ 📜model.glb
+ ┃ ┃ ┃ ┣ 📜soccer.glb
+ ┃ ┃ ┃ ┣ 📜SSAFY.png
+ ┃ ┃ ┃ ┣ 📜SSAFY몬.glb
+ ┃ ┃ ┃ ┣ 📜단팥몬.glb
+ ┃ ┃ ┃ ┣ 📜밀면몬.glb
+ ┃ ┃ ┃ ┣ 📜바게트몬.glb
+ ┃ ┃ ┃ ┣ 📜소금빵몬.glb
+ ┃ ┃ ┃ ┣ 📜소보루몬.glb
+ ┃ ┃ ┃ ┣ 📜식빵몬.glb
+ ┃ ┃ ┃ ┣ 📜쌀국수몬.glb
+ ┃ ┃ ┃ ┣ 📜카스테라몬.glb
+ ┃ ┃ ┃ ┗ 📜칼국수몬.glb
+ ┃ ┃ ┣ 📜123.jpg
+ ┃ ┃ ┗ 📜ssafy.jpg
+ ┃ ┣ 📂fonts
+ ┃ ┃ ┣ 📜malssami815.ttf
+ ┃ ┃ ┣ 📜Pretendard-Black.ttf
+ ┃ ┃ ┣ 📜Pretendard-Bold.ttf
+ ┃ ┃ ┣ 📜Pretendard-ExtraBold.ttf
+ ┃ ┃ ┣ 📜Pretendard-ExtraLight.ttf
+ ┃ ┃ ┣ 📜Pretendard-Light.ttf
+ ┃ ┃ ┣ 📜Pretendard-Medium.ttf
+ ┃ ┃ ┣ 📜Pretendard-Regular.ttf
+ ┃ ┃ ┣ 📜Pretendard-SemiBold.ttf
+ ┃ ┃ ┗ 📜Pretendard-Thin.ttf
+ ┣ 📂components
+ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📜CustomModal.tsx
+ ┃ ┃ ┣ 📜GpsComponent.tsx
+ ┃ ┃ ┣ 📜Header.tsx
+ ┃ ┃ ┗ 📜StepModal.tsx
+ ┃ ┣ 📂Community
+ ┃ ┃ ┣ 📜CommunitySearch.tsx
+ ┃ ┃ ┣ 📜EditPost.tsx
+ ┃ ┃ ┣ 📜PostDetail.tsx
+ ┃ ┃ ┗ 📜Writing.tsx
+ ┃ ┣ 📂Main
+ ┃ ┃ ┗ 📜SearchBar.tsx
+ ┃ ┣ 📂Monopoly
+ ┃ ┃ ┣ 📜Choice.tsx
+ ┃ ┃ ┣ 📜ChoiceTwo.tsx
+ ┃ ┃ ┣ 📜GameOne.tsx
+ ┃ ┃ ┣ 📜GameTwo.tsx
+ ┃ ┃ ┣ 📜Invitation.tsx
+ ┃ ┃ ┗ 📜MainRoom.tsx
+ ┃ ┣ 📂MyPage
+ ┃ ┃ ┣ 📜ChallengeCourse.tsx
+ ┃ ┃ ┣ 📜CompletedChallenge.tsx
+ ┃ ┃ ┣ 📜DaejeonStamp.tsx
+ ┃ ┃ ┣ 📜DeleteConfirmationModal.tsx
+ ┃ ┃ ┣ 📜Dogam.tsx
+ ┃ ┃ ┣ 📜MyTrips.tsx
+ ┃ ┃ ┣ 📜OngoingChallenge.tsx
+ ┃ ┃ ┗ 📜TravelLog.tsx
+ ┃ ┣ 📂Profile
+ ┃ ┃ ┣ 📜AccountDeletionModal.tsx
+ ┃ ┃ ┣ 📜ChangeInfo.tsx
+ ┃ ┃ ┣ 📜ChangePassword.tsx
+ ┃ ┃ ┗ 📜ProfileImagePickerModal.tsx
+ ┃ ┣ 📂RecommendedPlace
+ ┃ ┃ ┣ 📜CategoryList.tsx
+ ┃ ┃ ┣ 📜PlaceDetail.tsx
+ ┃ ┃ ┣ 📜PlaceList.tsx
+ ┃ ┃ ┣ 📜RecommendedSearchBar.tsx
+ ┃ ┃ ┗ 📜WriteReview.tsx
+ ┃ ┣ 📂TravelChallenge
+ ┃ ┃ ┣ 📜Ar.tsx
+ ┃ ┃ ┣ 📜ChallengeDetail.tsx
+ ┃ ┃ ┣ 📜ChatbotModal.tsx
+ ┃ ┃ ┣ 📜CouresePage.tsx
+ ┃ ┃ ┗ 📜CourseDescription.tsx
+ ┃ ┗ 📂TravelItinerary
+ ┃ ┃ ┣ 📜CreateSchedule.tsx
+ ┃ ┃ ┣ 📜DetailedInquiry.tsx
+ ┃ ┃ ┣ 📜Details.tsx
+ ┃ ┃ ┣ 📜Itinerary.tsx
+ ┃ ┃ ┣ 📜ReItinerary.tsx
+ ┃ ┃ ┣ 📜RenderDayItem.tsx
+ ┃ ┃ ┣ 📜RenderPlaceItem.tsx
+ ┃ ┃ ┣ 📜ReRenderDayItem.tsx
+ ┃ ┃ ┗ 📜ReRenderPlaceItem.tsx
+ ┣ 📂pages
+ ┃ ┣ 📜Community.tsx
+ ┃ ┣ 📜FindPassword.tsx
+ ┃ ┣ 📜Gps.tsx
+ ┃ ┣ 📜Login.tsx
+ ┃ ┣ 📜Main.tsx
+ ┃ ┣ 📜Map.tsx
+ ┃ ┣ 📜MonopolyPage.tsx
+ ┃ ┣ 📜MyPage.tsx
+ ┃ ┣ 📜Profile.tsx
+ ┃ ┣ 📜RecommendedPlace.tsx
+ ┃ ┣ 📜SignUp.tsx
+ ┃ ┣ 📜TravelChallenge.tsx
+ ┃ ┗ 📜TravelItinerary.tsx
+ ┣ 📂router
+ ┃ ┗ 📜Navigator.tsx
+ ┣ 📂store
+ ┃ ┣ 📜temp.md
+ ┃ ┗ 📜useUserStore.ts
+ ┣ 📂utills
+ ┃ ┗ 📜tokenStorage.ts
+ ┣ 📜@env.d.ts
+ ┣ 📜declarations.d.ts
+ ┣ 📜react-native-immersive.d.ts
+ ┗ 📜types.ts
+```
+
+</div>
+</details>
+
+<details>
+<summary>spring</summary>
+<div markdown="1">
+
+```text
+📦wassu
+ ┣ 📂src
+ ┃ ┣ 📂main
+ ┃ ┃ ┣ 📂java
+ ┃ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┃ ┗ 📂wassu
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂wassu
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂config
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜AmazonS3Config.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CORSConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ElasticIndexConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ElasticsearchConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ObjectMapperConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜PostgresConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RedisConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RestTemplateConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜SecurityConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SwaggerConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜AuthController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DataController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ScheduleController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂article
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleLikeDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleResponseDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ArticleSearchRequestDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserCourseProgressResponseDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂jwt
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜JwtTokenDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂marble
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CreateRoomDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CreateRouteDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜InviteRoomDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜JoinRoomDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MissionVerifyDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MyMarbleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜NodeDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜OptimalRouteDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RoomDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RouteSpotDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SseDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂review
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewCreateDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewImageDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReviewUpdateDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂schedule
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CreateDailyPlanDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CreateScheduleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DailyPlanDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MyScheduleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ScheduleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ScheduleProfileDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UpdateScheduleTitleDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂touristspot
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotFavoriteDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotImageDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotRecommendDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotSearchDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotStampDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotStampResponseDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TouristSpotTagDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂user
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserArticleDetailDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserAuthDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserPasswordUpdateDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserProfileDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserProfileUpdateDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserSignupDTO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂article
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CatchedWassuMonEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TourCourseDetailEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TourCourseEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserCourseProgressEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜WassuMonEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂marble
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleRoomEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜NodeEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂review
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewImageEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReviewLikes.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂schedule
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DailyPlanEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜PlanOrderEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ScheduleEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂touristspot
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotCourseEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotFavorites.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotImageEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotPresetEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotStampEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TouristSpotTagEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂user
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleLikedEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleReadEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜BlackListEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ClearedMarbleEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ElasticTouristSpotEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜VisitedSpotEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂eventListener
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotFavoriteEntityListener.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserEntityListener.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂exception
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CustomAccessDeniedHandler.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CustomErrorCode.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CustomException.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ErrorResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜GlobalExceptionHandler.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂article
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleLikedRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ArticleSearchRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CatchedWassuMonRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserCourseProgressRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂elasticTourist
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ElasticTouristSpotRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂marble
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleRoomRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜NodeRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜RedisRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂review
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewImageRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ReviewLikesRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReviewRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂schedule
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DailyPlanRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜PlanOrderRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ScheduleRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂touristspot
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotFavoritesRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotImageRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotStampRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TouristSpotTagRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂user
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜BlackListRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂security
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜JwtAuthenticationFilter.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜JwtUtil.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂article
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleCategoryFilterService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleCreateService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleDeleteService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleLikeService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleProfileService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleReadService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleSearchService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleSearchServiceImpl.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ArticleUpdateService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ArticleUtilService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂auth
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜AuthService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CourceService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂data
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜DataService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂elastic
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ElasticsearchService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂email
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜EmailService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂marble
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CreateRouteService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MarbleService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SseService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂review
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂schedule
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ScheduleInfoService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ScheduleService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂touristspot
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotSearchService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TouristSpotStampService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TouristSpotUtilService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂user
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserArticleService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserProfileUpdateService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReviewService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂temp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ElasticsearchConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜test.json
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂util
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜S3Util.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserUtil.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UtilTool.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜WassuApplication.java
+ ┃ ┃ ┗ 📂resources
+ ┃ ┃ ┃ ┣ 📜application.properties
+ ┃ ┃ ┃ ┣ 📜nori_settings.json
+ ┃ ┃ ┃ ┗ 📜spot_search_settings.json
+ ┃ ┗ 📂test
+ ┃ ┃ ┗ 📂java
+ ┃ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┃ ┗ 📂wassu
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂wassu
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜WassuApplicationTests.java
+ ┣ 📜.gitattributes
+ ┣ 📜.gitignore
+ ┣ 📜build.gradle
+ ┣ 📜Dockerfile
+ ┣ 📜gradlew
+ ┣ 📜gradlew.bat
+ ┣ 📜HELP.md
+ ┣ 📜Jenkinsfile
+ ┣ 📜settings.gradle
+ ┗ 📜updated_file.csv
+```
+
+</div>
+</details>
 
 ## 서비스 실사용 화면
 
