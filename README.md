@@ -1,7 +1,7 @@
 <div align="center">
       <img src='https://github.com/user-attachments/assets/d663a6fe-27b2-498c-a535-20a739b3d9a7' width="70%">
 
- <h1>대전왔슈</h1>
+ ---
 
  <h3>대전 여행 서비스, 대전을 담다, 대전왔슈</h3>
 <p>2024.10.14 ~ 2024.11.19</p>
@@ -100,7 +100,7 @@
 
 </br>
 
-**Language |** Java 21
+**Language |** Java 17
 
 **Framework |** Spring Boot, express, fastAPI, JWT, spring-security, elasticsearch
 
