@@ -877,6 +877,102 @@
 
 ## 앱 서비스 실사용 화면
 
+### 1️⃣ 로그인 페이지
+
+- 사용자가 앱에 접근하기 위해 로그인하는 화면입니다.
+- 간단한 UI로 사용자 친화적인 인터페이스를 제공합니다.
+
+<div align="middle">
+    <img src="https://github.com/user-attachments/assets/c3acb183-3ffe-42d9-aa3e-3b26aac57248" alt="로그인 페이지" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 2️⃣ 메인 페이지
+
+- 주요 관광지와 추천 코스를 확인할 수 있는 페이지입니다.
+- 카테고리별로 관광지를 탐색할 수 있으며, 손쉬운 검색 기능이 제공됩니다.
+
+<div align="middle">
+    <img src="https://github.com/user-attachments/assets/c5307a5e-2bcf-40e4-a682-bfd4918d6935" alt="메인 페이지" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 3️⃣ 관광지 리스트
+
+- 대전의 다양한 관광지를 한눈에 볼 수 있습니다.
+- 음식, 자연, 문화 등 카테고리별로 정렬되어 사용자 편의를 제공합니다.
+
+<div align="middle">
+    <img src="https://github.com/user-attachments/assets/406a6119-aa17-4d8b-bb83-146427dbee8e" alt="관광지 리스트" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 4️⃣ 관광지 상세 & 스탬프
+
+- 특정 관광지에 대한 상세 정보를 확인할 수 있으며, 스탬프 수집 기능을 제공합니다.
+- 사진 및 지도 정보로 사용자가 쉽게 탐색할 수 있습니다.
+
+<div align="middle">
+    <img src="/mnt/data/3관광지 상세&스템프.gif" alt="관광지 상세 & 스탬프" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 5️⃣ 게시글 디테일
+
+- 사용자들이 공유한 여행기를 확인할 수 있습니다.
+- 게시글에는 사진과 함께 상세한 내용이 포함됩니다.
+
+<div align="middle">
+    <img src="../gif/4게시글 디테일.gif" alt="게시글 디테일" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 6️⃣ 게시글 생성
+
+- 사용자들이 직접 여행기를 작성하여 공유할 수 있는 페이지입니다.
+- 간편한 UI로 쉽게 작성 및 업로드 가능합니다.
+
+<div align="middle">
+    <img src="/mnt/data/4게시글 생성.gif" alt="게시글 생성" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 7️⃣ 코스 & AR
+
+- 추천 여행 코스를 확인하고, AR 기능으로 특별한 경험을 제공합니다.
+- 왔슈몬과 같은 특수 콘텐츠도 포함되어 있습니다.
+
+<div align="middle">
+    <img src="/mnt/data/5코스&ar.gif" alt="코스 & AR" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 8️⃣ 마이페이지
+
+- 사용자의 정보와 활동 내역을 확인할 수 있는 페이지입니다.
+- 스탬프와 방문한 장소를 관리할 수 있는 기능이 포함됩니다.
+
+<div align="middle">
+    <img src="/mnt/data/6마이페이지.gif" alt="마이페이지" style="width:700px; height:auto;"/>
+</div>
+
+---
+
+### 9️⃣ 마블
+
+- 게임 요소를 활용하여 사용자 흥미를 높였습니다.
+
+<div align="middle">
+    <img src="/mnt/data/7마블.gif" alt="마블" style="width:700px; height:auto;"/>
+</div>
+
 ## 웹 서비스 실사용 화면
 
 ### 1. 랜딩 페이지
