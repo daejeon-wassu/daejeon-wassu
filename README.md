@@ -99,11 +99,11 @@
 
 </br>
 
-**Language |** Java 21, Python (v3.9.13)
+**Language |** Java 21
 
-**Framework |** Spring Boot(v3.2.4), express(v4.19.2), fastAPI(v0.111.0)
+**Framework |** Spring Boot(v3.2.4), express(v4.19.2), fastAPI(v0.111.0), JWT, spring-security, elasticsearch
 
-**DB Connection(ORM) |** Spring Data JPA
+**DB |** Spring Data JPA, redis, postgresql
 
 **Build Tool |** Gradle(v8.5.0)
 
@@ -123,7 +123,7 @@
 
 <br>
 
-**Server |** GitLab, Jenkins(v2.440.3), Docker(v25.0.2), Nginx(v1.18.0)
+**Server |** Jenkins(v2.440.3), Docker(v25.0.2), Nginx(v1.18.0), Amazon-S3, AWS-EC2
 
 </div>
 
@@ -150,6 +150,11 @@
   <td> 코스 </td>
   <td> 코스 추천</td>
   <td> 대전에서 즐길 수 있는 다양한 여행 테마를 기반으로 코스를 제공합니다.</td>
+</tr>
+<tr> 
+  <td> </td>
+  <td> 챗봇 추천</td>
+  <td> 챗봇과의 대화를 통해서 자신에게 맞는 코스를 추천받을 수 있습니다.</td>
 </tr>
 <tr> 
   <td> </td>
