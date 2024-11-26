@@ -100,7 +100,7 @@
 
 </br>
 
-**Language |** Java 21
+**Language |** Java 17
 
 **Framework |** Spring Boot, express, fastAPI, JWT, spring-security, elasticsearch
 
