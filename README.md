@@ -48,8 +48,8 @@
         <td align="center" width="15%"><a href="https://github.com/baek-yak">장현수</a></td>
         <td align="center" width="15%"><a href="https://github.com/KingKangSS">강병규</td>
         <td align="center" width="15%"><a href="https://github.com/kinnbotT">김해수</td>
-        <td align="center" width="15%"><a href="https://github.com/kwonja">이정원</td>
-        <td align="center" width="15%"><a href="https://github.com/sondongcheon">임용구</td>
+        <td align="center" width="15%"><a href="https://github.com/jw17111">이정원</td>
+        <td align="center" width="15%"><a href="https://github.com/happyyongku">임용구</td>
         <td align="center" width="15%"><a href="https://github.com/jung18">정두홍</td>
         </tr>
       </table>
@@ -73,11 +73,11 @@
 
 <br>
 
-**Language |** HTML5, CSS3, JavaScript, node.js(v20.12.2)
+**Language |** HTML5, CSS3, JavaScript, node.js
 
-**Framework |** Next.js(v14.2.2), Zustand(v4.5.2)
+**Framework |** Next.js, Zustand
 
-**Library |** eslint(v8.57.0), prettier(v3.2.5), Axios(v1.6.7),
+**Library |** eslint, prettier, Axios,
 
 </div>
 
@@ -102,11 +102,11 @@
 
 **Language |** Java 21
 
-**Framework |** Spring Boot(v3.2.4), express(v4.19.2), fastAPI(v0.111.0), JWT, spring-security, elasticsearch
+**Framework |** Spring Boot, express, fastAPI, JWT, spring-security, elasticsearch
 
 **DB |** Spring Data JPA, redis, postgresql
 
-**Build Tool |** Gradle(v8.5.0)
+**Build Tool |** Gradle
 
 </div>
 
@@ -124,7 +124,7 @@
 
 <br>
 
-**Server |** Jenkins(v2.440.3), Docker(v25.0.2), Nginx(v1.18.0), Amazon-S3, AWS-EC2
+**Server |** Jenkins, Docker, Nginx, Amazon-S3, AWS-EC2
 
 </div>
 
@@ -877,9 +877,10 @@
 
 ## 앱 서비스 실사용 화면
 
-| <div align="center">**로그인 페이지**</div>                                                                                                     | <div align="center">**메인 페이지**</div>                                                                                                       | <div align="center">**관광지 리스트**</div>                                                                                                     | <div align="center">**관광지 상세 & 스탬프**</div>                                                                                              | <div align="center">**게시글 상세**</div>                                                                                                       | <div align="center">**게시글 생성**</div>                                                                                                       | <div align="center">**코스 & AR**</div>                                                                                                         | <div align="center">**마이 페이지**</div>                                                                                                       | <div align="center">**부루마블**</div>                                                                                                          |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| <div align="center"><img src="https://github.com/user-attachments/assets/c3acb183-3ffe-42d9-aa3e-3b26aac57248" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c5307a5e-2bcf-40e4-a682-bfd4918d6935" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/406a6119-aa17-4d8b-bb83-146427dbee8e" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c50d9bed-0227-4199-9696-2dbc4d9bc160" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/f91b2573-9503-443d-bb89-4203e62d9367" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/fca5f479-ff60-427a-8646-26dd078045d5" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/56e1b19c-6eab-4635-9588-48796c88c3da" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/bde7020c-f783-4740-a3b0-1eb2634613d2" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/56e1b19c-6eab-4635-9588-48796c88c3da" width="200" height="400"/></div> |
+| <div align="center">**로그인 페이지**</div>                                                                                                     | <div align="center">**메인 페이지**</div>                                                                                                       | <div align="center">**관광지 리스트**</div>                                                                                                     | <div align="center">**관광지 상세 & 스탬프**</div>                                                                                              | <div align="center">**게시글 상세**</div>                                                                                                       | <div align="center">**게시글 생성**</div>                                                                                                       | <div align="center">**코스 & AR**</div>                                                                                                         | <div align="center">**마이 페이지**</div>                                                                                                       | <div align="center">**부루마블**</div>                                                                                                          | <div align="center">**일정**</div> |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| <div align="center"><img src="https://github.com/user-attachments/assets/c3acb183-3ffe-42d9-aa3e-3b26aac57248" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c5307a5e-2bcf-40e4-a682-bfd4918d6935" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/406a6119-aa17-4d8b-bb83-146427dbee8e" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c50d9bed-0227-4199-9696-2dbc4d9bc160" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/f91b2573-9503-443d-bb89-4203e62d9367" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/fca5f479-ff60-427a-8646-26dd078045d5" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/b2d2ab9e-cbdb-4d1c-b3e6-3aa9b707efc4" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/bde7020c-f783-4740-a3b0-1eb2634613d2" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/898f2e04-fd4d-4ccc-81ad-64e313b80c3d" width="200" height="400"/></div> |
+| <div align="center"><img src="https://github.com/user-attachments/assets/c3acb183-3ffe-42d9-aa3e-3b26aac57248" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c5307a5e-2bcf-40e4-a682-bfd4918d6935" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/406a6119-aa17-4d8b-bb83-146427dbee8e" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c50d9bed-0227-4199-9696-2dbc4d9bc160" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/f91b2573-9503-443d-bb89-4203e62d9367" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/fca5f479-ff60-427a-8646-26dd078045d5" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/b2d2ab9e-cbdb-4d1c-b3e6-3aa9b707efc4" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/bde7020c-f783-4740-a3b0-1eb2634613d2" width="200" height="400"/></div> | <div align="center"><img src="https://github.com/user-attachments/assets/c9c66d4a-0f38-4a0f-9d00-645a05db353b" width="200" height="400"/></div> |
 
 ## 웹 서비스 실사용 화면
 
