@@ -4,7 +4,7 @@
  <h1>대전왔슈</h1>
 
  <h3>대전 여행 서비스, 대전을 담다, 대전왔슈</h3>
-<p>2024.10.00 ~ 2024.11.19</p>
+<p>2024.10.14 ~ 2024.11.19</p>
 </div>
 
 ## 목차
@@ -43,12 +43,12 @@
       <table>
       <tr>
         <td align="center" width="5%">GitHub</td>
-        <td align="center" width="15%"><a href="https://github.com/suehwanBoo">장현수</a></td>
-        <td align="center" width="15%"><a href="https://github.com/hyunjiihye">강병규</td>
-        <td align="center" width="15%"><a href="https://github.com/lhgeer7485">김해수</td>
-        <td align="center" width="15%"><a href="https://github.com/YangGeoun">이정원</td>
+        <td align="center" width="15%"><a href="https://github.com/baek-yak">장현수</a></td>
+        <td align="center" width="15%"><a href="https://github.com/KingKangSS">강병규</td>
+        <td align="center" width="15%"><a href="https://github.com/kinnbotT">김해수</td>
+        <td align="center" width="15%"><a href="https://github.com/kwonja">이정원</td>
         <td align="center" width="15%"><a href="https://github.com/sondongcheon">임용구</td>
-        <td align="center" width="15%"><a href="https://github.com/hyyoom">정두홍</td>
+        <td align="center" width="15%"><a href="https://github.com/jung18">정두홍</td>
         </tr>
       </table>
 </div>
@@ -65,10 +65,8 @@
 <img src="https://img.shields.io/badge/JavaScript-FFE249?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
 <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white">
-
 <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white">
 <img src="https://img.shields.io/badge/zustand-1F4ECF?style=for-the-badge&logo=zustand&logoColor=white">
-
 <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
 
 <br>
@@ -89,14 +87,14 @@
 
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"> 
 <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-<img src="https://img.shields.io/badge/SpringWebClient-6DB33F?style=for-the-badge&logo=SpringWebClient&logoColor=white">
+<!-- <img src="https://img.shields.io/badge/SpringWebClient-6DB33F?style=for-the-badge&logo=SpringWebClient&logoColor=white"> -->
 <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
-<img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
+<!-- <img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white"> -->
+<!-- <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> -->
+
 <img src="https://img.shields.io/badge/JPA Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white">
 <img src="https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-<img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white">
+<!-- <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"> -->
 
 </br>
 
@@ -119,6 +117,8 @@
 <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"> 
 <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> 
 <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
+<img src="https://img.shields.io/badge/AWS%20EC2-%23FF9900.svg?style=for-the-badge&logo=amazon-ec2&logoColor=white"/>
 
 <br>
 
@@ -206,7 +206,7 @@
 ## 시스템 아키텍쳐
 
 <div  width="70%">
-      <img src='readmeImage/System Architecture.png'>
+      <img src='https://github.com/user-attachments/assets/cbccddfc-9f84-4fa3-9ce1-0edbc0c57472'>
 </div>
 
 ## 서비스 실사용 화면
